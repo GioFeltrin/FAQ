@@ -1,0 +1,167 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#imagem {
+    
+    background-color: white;
+    width: fit-content;
+    border-radius: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;         
+    
+}
+
+body{
+    background-color: rgb(209, 137, 228);
+    font-family: 'Concert One', Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header {
+    background-color: rgb(171, 111, 228);
+    text-decoration: none;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > h1 > a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+menu {
+    display: block;
+    text-align: center;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 10px;
+    background-color: rgb(151, 64, 233);
+    border-top: 2px ;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(171, 111, 228);
+    color: black;
+}
+
+#icon {
+
+    display: block;
+    background-color: rgb(151, 64, 233);
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    cursor: pointer;    
+
+}
+
+#icon:hover{
+    background-color: rgb(171, 111, 228);
+    color: black;
+}
+
+
+main {
+    display: block;
+}
+
+
+
+#caixa {
+    background-color: rgb(231, 184, 229);
+    color: rgb(174, 9, 196);
+    text-align: center;
+    margin:auto;
+    min-width: 200px;
+    max-width: 320px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#titulo {
+    font-size: 15px;
+}
+
+#textoInicial {
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+#perguntas {
+    text-align: justify;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.perguntaCard {
+    padding-bottom: 10px;
+
+}
+
+summary{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+summary:hover {
+    background-color: rgb(209, 137, 228);
+    margin: 0;
+        
+}
+
+details[open] summary{
+    list-style-type: none;
+    background-color: rgb(209, 137, 228);
+    color: aliceblue;
+}
+
+.resposta {
+    background-color: rgb(209, 137, 228);
+    color: aliceblue;
+}
+
+#imagemSocial {
+    padding: 20px;
+    padding-bottom: 0%;
+    text-decoration: none;
+}
+
+footer{
+    background-color:  rgb(171, 111, 228);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.baixo {
+    padding: 10px;
+
+}
+
+h3 {
+    margin-bottom: 10px;
+}
