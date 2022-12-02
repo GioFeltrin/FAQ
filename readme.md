@@ -3,7 +3,6 @@
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
 
 Terceiro projeto realizado para a Mentoria CSV - e também o terceiro projeto que fiz como DEV - consistente em uma página de FAQ em HTML5 e CSS3, com pouca utilização de JS. 
 
