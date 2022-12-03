@@ -14,7 +14,7 @@ A página é responsiva e você pode ter acesso a ela pelo link https://scintill
 ## Layout web
 ![Web 1](images.readme/web1.png)
 
-![Web 2](images.readme/web2.png)
+
 
 
 # Tecnologias utilizadas
